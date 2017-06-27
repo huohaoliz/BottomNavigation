@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LinkTestProject</string>
+    <string name="homepage">首页</string>
+    <string name="subscription">订阅</string>
+    <string name="find">发现</string>
+    <string name="mine">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homepage_fragment">这是首页页面</string>
+    <string name="subscription_fragment">这是订阅页面</string>
+    <string name="find_fragment">这是发现页面</string>
+    <string name="mine_fragment">这是我的页面</string>
+</resources>

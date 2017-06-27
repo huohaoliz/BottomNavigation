@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.linktestproject.MainActivity">
+    <Button
+        android:id="@+id/bt_main_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="RadioGroup+Fragment实现导航"/>
+    <Button
+        android:id="@+id/bt_main_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="Tablayout+Fragment实现导航"/>
+    <Button
+        android:id="@+id/bt_main_reflect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="反射实现导航"/>
+    <Button
+        android:id="@+id/bt_main_tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="FragmentTabHost+Fragment实现导航"/>
+</LinearLayout>
