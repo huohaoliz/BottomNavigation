@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.linktestproject.MainActivity">
+    tools:context="com.example.navigationproject.MainActivity">
     <Button
         android:id="@+id/bt_main_radio"
         android:layout_width="match_parent"

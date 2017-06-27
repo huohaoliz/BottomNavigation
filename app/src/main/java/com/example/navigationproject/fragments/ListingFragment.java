@@ -1,7 +1,6 @@
-package com.example.linktestproject.fragments;
+package com.example.navigationproject.fragments;
 
 import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -10,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.linktestproject.R;
+import com.example.navigationproject.R;
 
 public class ListingFragment extends Fragment {
 

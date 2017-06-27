@@ -1,4 +1,4 @@
-package com.example.linktestproject.fragments;
+package com.example.navigationproject.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -11,8 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.linktestproject.R;
-import com.example.linktestproject.adapter.HomepageAdapter;
+import com.example.navigationproject.R;
+import com.example.navigationproject.adapter.HomepageAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

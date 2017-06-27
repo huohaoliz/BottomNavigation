@@ -1,4 +1,4 @@
-package com.example.linktestproject;
+package com.example.navigationproject;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.example.linktestproject.adapter;
+package com.example.navigationproject.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

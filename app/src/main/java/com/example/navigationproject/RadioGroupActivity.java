@@ -1,4 +1,4 @@
-package com.example.linktestproject;
+package com.example.navigationproject;
 
 
 import android.support.annotation.IdRes;
@@ -10,10 +10,10 @@ import android.os.Bundle;
 import android.widget.FrameLayout;
 import android.widget.RadioGroup;
 
-import com.example.linktestproject.fragments.FindFragment;
-import com.example.linktestproject.fragments.HomepageFragment;
-import com.example.linktestproject.fragments.MineFragment;
-import com.example.linktestproject.fragments.SubscriptionFragment;
+import com.example.navigationproject.fragments.FindFragment;
+import com.example.navigationproject.fragments.HomepageFragment;
+import com.example.navigationproject.fragments.MineFragment;
+import com.example.navigationproject.fragments.SubscriptionFragment;
 
 public class RadioGroupActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 

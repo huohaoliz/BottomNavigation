@@ -1,7 +1,6 @@
-package com.example.linktestproject.fragments;
+package com.example.navigationproject.fragments;
 
 import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -10,69 +9,71 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.linktestproject.R;
+import com.example.navigationproject.R;
 
-public class ClassifyFragment extends Fragment {
+
+public class FindFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        Log.d("TAG","ClassifyFragment---onCreateView");
-        return inflater.inflate(R.layout.fragment_classify, container, false);
+        Log.d("TAG","FindFragment---onCreateView");
+        return inflater.inflate(R.layout.fragment_find, container, false);
     }
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("TAG","ClassifyFragment---onCreate");
+        Log.d("TAG","FindFragment---onCreate");
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        Log.d("TAG","ClassifyFragment---onAttach");
+        Log.d("TAG","FindFragment---onAttach");
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        Log.d("TAG","ClassifyFragment---onActivityCreated");
+        Log.d("TAG","FindFragment---onActivityCreated");
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        Log.d("TAG","ClassifyFragment---onStart");
+        Log.d("TAG","FindFragment---onStart");
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        Log.d("TAG","ClassifyFragment---onResume");
+        Log.d("TAG","FindFragment---onResume");
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        Log.d("TAG","ClassifyFragment---onPause");
+        Log.d("TAG","FindFragment---onPause");
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        Log.d("TAG","ClassifyFragment---onStop");
+        Log.d("TAG","FindFragment---onStop");
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.d("TAG","ClassifyFragment---onDestroy");
+        Log.d("TAG","FindFragment---onDestroy");
     }
 
     @Override
     public void onDetach() {
         super.onDetach();
-        Log.d("TAG","ClassifyFragment---onDetach");
+        Log.d("TAG","FindFragment---onDetach");
     }
 
 }

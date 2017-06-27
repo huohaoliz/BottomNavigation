@@ -1,4 +1,4 @@
-package com.example.linktestproject;
+package com.example.navigationproject;
 
 import org.junit.Test;
 

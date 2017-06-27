@@ -1,4 +1,4 @@
-package com.example.linktestproject;
+package com.example.navigationproject;
 
 import android.graphics.drawable.Drawable;
 import android.support.design.widget.TabLayout;
@@ -7,11 +7,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.linktestproject.adapter.TablayoutAdapter;
-import com.example.linktestproject.fragments.FindFragment;
-import com.example.linktestproject.fragments.HomepageFragment;
-import com.example.linktestproject.fragments.MineFragment;
-import com.example.linktestproject.fragments.SubscriptionFragment;
+import com.example.navigationproject.adapter.TablayoutAdapter;
+import com.example.navigationproject.fragments.FindFragment;
+import com.example.navigationproject.fragments.HomepageFragment;
+import com.example.navigationproject.fragments.MineFragment;
+import com.example.navigationproject.fragments.SubscriptionFragment;
 
 import java.util.ArrayList;
 import java.util.List;
