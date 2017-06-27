@@ -17,7 +17,6 @@ public class SubscriptionFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         Log.d("TAG","SubscriptionFragment---onCreateView");
         return inflater.inflate(R.layout.fragment_subscription, container, false);
 
@@ -77,4 +76,9 @@ public class SubscriptionFragment extends Fragment {
         Log.d("TAG","SubscriptionFragment---onDetach");
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        Log.d("TAG","SubscriptionFragment---onDestroyView");
+    }
 }
